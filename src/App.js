@@ -1,9 +1,10 @@
 import React from 'react';
+import IncDecBuilder from './components/IncDecBuilder/IncDecBuilder';
 
 function App() {
   return (
     <div className='App'>
-      <h2>The App</h2>
+      <IncDecBuilder />
     </div>
   );
 }

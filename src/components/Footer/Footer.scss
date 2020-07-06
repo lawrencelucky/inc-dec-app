@@ -1,0 +1,17 @@
+footer {
+  .icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 7rem);
+    justify-content: center;
+    justify-items: center;
+    padding: 1rem;
+
+    .icon {
+      width: 5rem;
+    }
+  }
+
+  .dark {
+    background-color: #011936;
+  }
+}
